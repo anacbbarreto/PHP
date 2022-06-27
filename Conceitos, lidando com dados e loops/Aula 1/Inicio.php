@@ -1,3 +1,3 @@
 <?php
 
-echo "Ol a mundo";
+echo "Ola mundo"; // echo para imprimir
