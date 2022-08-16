@@ -1,11 +1,12 @@
 <?php
 
-include 'Artigo.php';
+include 'config.php'; //acessa a configuração do banco
+
+include 'src/Artigo.php'; //cria array com os artigos
 $artigo = new Artigo();
 $artigos = $artigo->exibirTodos();
 
 
-echo ' eaiii';
 ?>
 
 
@@ -23,7 +24,7 @@ echo ' eaiii';
         <h1>Meu Blog</h1>
         <?php foreach ($artigos as $artigo) : ?>
         <h2>
-            <a href="artigo.php?id=<?php echo $artigo['id']; ?>">
+            <a href="artigo.php?id=<?php echo $artigo['id'];?>">
                 <?php echo $artigo['titulo']; ?>
             </a>
         </h2>
