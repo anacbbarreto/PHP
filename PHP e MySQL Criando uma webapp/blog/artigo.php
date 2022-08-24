@@ -7,7 +7,6 @@ $obj_artigo = new Artigo($mysql);
 $artigo = $obj_artigo->encontrarPorId($_GET['id']);
 
 ?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -18,17 +17,16 @@ $artigo = $obj_artigo->encontrarPorId($_GET['id']);
 </head>
 
 <body>
-<div id="container">
+    <div id="container">
         <h1>
-    <?php echo $artigo['titulo']; ?>
-
+            <?php echo $artigo['titulo']; ?>
         </h1>
         <p>
-        <?php echo $artigo['conteudo']; ?>        </p>
+            <?php echo $artigo['conteudo']; ?>
         </p>
         <div>
-            <a class="botao botao-block" href="index.php"> Voltar</a>
-    </div>
+            <a class="botao botao-block" href="index.php">Voltar</a>
+        </div>
     </div>
 </body>
 
