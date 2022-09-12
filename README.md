@@ -15,3 +15,6 @@ Cursos do Alura.
 
 ## ALURA - PHP e MySQL: Criando uma webapp
   Desenvolver um blog usando PHP e MySQL.
+  
+  ## ALURA - Avançando com PHP: Arrays, Strings, Função e Web
+  Curso para aprender lógica com PHP , dados e funções.
