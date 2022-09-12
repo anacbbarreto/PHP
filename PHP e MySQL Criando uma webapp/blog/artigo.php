@@ -1,3 +1,12 @@
+<?php
+
+require 'config.php';
+require 'src/Artigo.php';
+
+$obj_artigo = new Artigo($mysql);
+$artigo = $obj_artigo->encontrarPorId($_GET['id']);
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,14 +19,13 @@
 <body>
     <div id="container">
         <h1>
-            Como é o funil do Growth Hacking?
+            <?php echo $artigo['titulo']; ?>
         </h1>
         <p>
-            Minha amiga que possui um clube de assinaturas começou a utilizar o Growth Hacking após conhecer um pouco
-            mais sobre ele.
+            <?php echo $artigo['conteudo']; ?>
         </p>
         <div>
-            <a class="botao botao-block" href="index.html">Voltar</a>
+            <a class="botao botao-block" href="index.php">Voltar</a>
         </div>
     </div>
 </body>
