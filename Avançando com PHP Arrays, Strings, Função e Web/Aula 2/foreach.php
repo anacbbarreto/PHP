@@ -1,6 +1,6 @@
 <?php
 
-       '123.456.789-10' => [
+      $contasCorrentes = [ '123.456.789-10' => [
         'titular' => 'Vinicius',
         'saldo' => 1000
     ],
@@ -15,11 +15,13 @@
 ];
 
 $contasCorrentes[] = [
+     
     'titular' => 'Claudia',
     'saldo' => 2000
 ];
 
 $contasCorrentes[] = [
+   
     'titular' => 'Claudia 2',
     'saldo' => 2002
 ];
