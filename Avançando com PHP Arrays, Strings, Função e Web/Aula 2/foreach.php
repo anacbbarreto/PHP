@@ -14,15 +14,18 @@
     ]
 ];
 
-$contasCorrentes[] = [
+$contasCorrentes [] = [
      
+     $cpf => '11111111',
     'titular' => 'Claudia',
     'saldo' => 2000
+         
+    
 ];
 
 $contasCorrentes[] = [
    
-    'titular' => 'Claudia 2',
+    'titular' => 'Ana',
     'saldo' => 2002
 ];
 
