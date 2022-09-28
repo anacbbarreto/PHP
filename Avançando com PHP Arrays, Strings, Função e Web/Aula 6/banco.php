@@ -1,16 +1,10 @@
 <?php
-
-
-/**
- * para incluir o arquivo porem se o arquivo nao existir, apresenta apenas uma mensagem 
- * include 'funcoes.php';
+/* para realizar os testes via web é necessario criar um banco.
+ * Abre o cmd, entra na pasta do projeto e digita o comando
+ * php -S localhost:8000
+ * Depois abre o navegador e abre o endereço
+ * localhost:8000/banco.php
  */
-
-/**
- * arquivo é obrigatorio e nao compila
- *require 'funcoes.php';
- */
-
 
 // verifica se o arquivo já foi importado antes.
 require_once 'funcoes.php';
@@ -51,9 +45,6 @@ $contasCorrentes['123.456.789-11'] = sacar(
     200
 );
 
-
-unset($contasCorrentes['123.456.789-11']);
-
 titularComLetrasMaiusculas($contasCorrentes['123.256.789-12']);
 
 
@@ -64,12 +55,3 @@ foreach ($contasCorrentes as $cpf => $conta) {
         "$cpf $conta[titular] $conta[saldo]"
     );
 }
-
-/*strings complexas para acessar o array da mesma forma de utilizamos.
-foreach ($contasCorrentes as $cpf => $conta) {
-    exibeMensagem(
-        "$cpf {$conta['titular']} {$conta['saldo']}"
-    );
-}
- * 
- */
