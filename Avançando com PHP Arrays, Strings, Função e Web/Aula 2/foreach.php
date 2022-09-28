@@ -16,7 +16,6 @@
 
 $contasCorrentes [] = [
      
-     $cpf => '11111111',
     'titular' => 'Claudia',
     'saldo' => 2000
          
