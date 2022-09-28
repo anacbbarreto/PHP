@@ -1,9 +1,10 @@
 <?php
 
 // uma subrotina executa tudo o que precisa e nao retorna valor nenhum
-function exibeMensagem($mensagem){
-    echo $mensagem . PHP_EOL;
+function exibeMensagem(string $mensagem){
+    echo $mensagem . '<br>';
 }
+
 
 // uma função executa tudo o que precisa e retorna valor 
 
@@ -32,4 +33,10 @@ function titularComLetrasMaiusculas(array &$conta)
 {
     $conta['titular'] = mb_strtoupper($conta['titular']);
 
+}
+
+
+function exibeConta(array $conta) 
+{
+    echo "<li>Titular: $conta[titular]. Saldo: {$conta['saldo']}</li>";
 }
