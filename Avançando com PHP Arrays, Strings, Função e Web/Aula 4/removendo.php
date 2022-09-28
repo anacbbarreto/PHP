@@ -50,6 +50,9 @@ $contasCorrentes['123.456.789-11'] = sacar(
     200
 );
 
+
+unset($contasCorrentes['123.456.789-11']);
+
 titularComLetrasMaiusculas($contasCorrentes['123.256.789-12']);
 
 
