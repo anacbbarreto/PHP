@@ -18,3 +18,6 @@ Cursos do Alura.
   
   ## ALURA - Avançando com PHP: Arrays, Strings, Função e Web
   Curso para aprender lógica com PHP , dados e funções.
+
+ ## ALURA - Avançando com PHP: Arrays, Strings, Função e Web
+  Aprenda como utilizar uma das partes mais importantes da linguagem, as strings!
