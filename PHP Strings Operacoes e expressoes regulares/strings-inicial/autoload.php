@@ -19,7 +19,4 @@ spl_autoload_register(function ($classe) {
     if (file_exists($arquivo)) {
         require $arquivo;
     }
-
 });
-
-?>

@@ -4,27 +4,16 @@ namespace App\Alura;
 
 class Usuario
 {
+
     private $nome;
     private $sobrenome;
     private $senha;
 
-
-    public function __construct(string $nome, string $senha) {
+    public function __construct(string $nome, string $senha)
+    {
         $this->setNomeSobrenome($nome);
         $this->validaSenha($senha);
-    
     }
-
-    private function validaSenha(string $senha): void
-{
-    $tamanhoSenha = strlen(trim($senha));
-
-    if ($tamanhoSenha > 6) {
-        $this->senha = $senha;
-    } else {
-        $this->senha = "Senha inválida";
-    }
-}
 
     private function setNomeSobrenome(string $nome)
     {
@@ -55,9 +44,18 @@ class Usuario
     }
 
     public function getSenha(): string
-{
-    return $this->senha;
-}
+    {
+        return $this->senha;
+    }
 
+    private function validaSenha(string $senha): void
+    {
+        $tamanhoSenha = strlen(trim($senha));
+
+        if ($tamanhoSenha > 6) {
+            $this->senha = $senha;
+        } else {
+            $this->senha = "Senha inválida";
+        }
+    }
 }
-?>
