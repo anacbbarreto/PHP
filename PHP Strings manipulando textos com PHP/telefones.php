@@ -1,10 +1,5 @@
 <?php
 
-$telefones = ['(24) 99999 - 9999','(23) 88888 - 9999', '(22) 77777 - 9999' ];
-
-//unifica o array e add o separador
+$telefones = ['(24) 99999 - 9999 ', ' (21) 99999 - 9999', '(24) 2222 - 2222'];
 
 echo implode(array: $telefones, separator: ', ') . PHP_EOL;
-
-
-?>

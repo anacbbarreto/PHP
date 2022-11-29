@@ -1,15 +1,11 @@
 <?php
 
+$nome = 'Vinicius dos Santos';
 
-$nome = 'Ana Barreto';
+$ehDaMinhaFamilia = str_contains($nome, 'Dias');
 
-$DaFamilia = str_contains($nome, 'Barreto');
-
-if($DaFamilia){
-    echo "$nome é da minha familia" . PHP_EOL;
-} else{
-    echo "$nome não é da minha familia" . PHP_EOL;
-
+if ($ehDaMinhaFamilia) {
+    echo "$nome é da minha família" . PHP_EOL;
+} else {
+    echo "$nome não é da minha família" . PHP_EOL;
 }
-
-?>

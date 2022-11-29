@@ -1,19 +1,18 @@
 <?php
 
-function gerarEmail(string $nome): void{
+function geraEmail(string $nome): void
+{
     $conteudoEmail = <<<'FIM'
     Olá, $nome!
-
-    Estamos entrando em contato para 
-    {motivo do contato}
-
-    {assinatura}
     
+    Estamos entrando em contato para
+    {motivo do contato}
+    
+    {assinatura}
+
     FIM;
 
     echo $conteudoEmail;
 }
 
-gerarEmail( 'Ana Barreto');
-
-?>
+geraEmail('Vinicius Dias');
