@@ -10,7 +10,6 @@ if($anoNascimento == 1994){
 echo 'SIM'.PHP_EOL;
 } else{
     echo 'NÃO'.PHP_EOL;
-
 }
 
 
