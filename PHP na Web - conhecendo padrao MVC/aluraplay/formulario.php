@@ -14,7 +14,6 @@ if ($id !== false) {
     $statement->execute();
     $video = $statement->fetch(\PDO::FETCH_ASSOC);
 }
-
 ?><!DOCTYPE html>
 <html lang="pt-br">
 
@@ -50,8 +49,7 @@ if ($id !== false) {
     <main class="container">
 
         <form class="container__formulario"
-              action="<?= $id === false ? '/novo-video.php' : '/editar-video.php?id=' . $id; ?>"
-              method="post">
+          method="post">
             <h2 class="formulario__titulo">Envie um vídeo!</h2>
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="url">Link embed</label>
