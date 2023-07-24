@@ -57,3 +57,11 @@ Cursos concluidos do Alura.
 * Filtre e valide dados de formulários com PHP
 * Aprenda a usar a orientação a objetos para organizar um projeto
 * Entenda o padrão Model-View-Controller
+
+
+## ALURA - PHP na Web: lidando com segurança e API
+* Aprenda a realizar autenticação com PHP
+* Realize autorização usando sessões HTTP com PHP
+* Saiba manipular Upload de arquivos com PHP
+* Se aprofunde no conhecimento de segurança com PHP
+* Aprenda sobre criação de APIs com PHP
