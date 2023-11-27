@@ -5,10 +5,10 @@
   <img  alt="CSS" height="35" width="35" src="https://user-images.githubusercontent.com/64232721/176305937-a3f35066-5207-44ea-bfff-a86ef501a722.png">
 </h1>
 </div>
-Cursos concluidos do Alura.
+Cursos do Alura.
 <br> <br> 
   
- ## ALURA - Avançando com PHP: Arrays, Strings, Função e Web
+## ALURA - Avançando com PHP: Arrays, Strings, Função e Web
 * Entenda os Arrays e Arrays associativos
 * Crie funções para encapsular uma lógica
 * Domine os strings e conheça a interpolação
@@ -41,7 +41,6 @@ Cursos concluidos do Alura.
 * Conheço detalhes de sintaxe de strings no PHP
 * Aprenda sobre expressões regulares
 
-
 ## ALURA - PHP Strings: Operações e expressões regulares
 * Aprenda como utilizar uma das partes mais importantes da linguagem, as strings!
 * Veja na prática como utilizá-las e as operações mais usadas no dia-a-dia.
@@ -50,7 +49,6 @@ Cursos concluidos do Alura.
 * Conheça sobre os filtros de strings do PHP, e como você pode utilizá-los na prática para realizar validações.
 * Aprenda como fazer um autoloader, e carregar as suas classes automaticamente.
 
-
 ## ALURA - PHP na Web: conhecendo o padrão MVC
 * Aprenda a usar o PHP na web
 * Saiba como gerar HTML usando PHP
@@ -58,10 +56,23 @@ Cursos concluidos do Alura.
 * Aprenda a usar a orientação a objetos para organizar um projeto
 * Entenda o padrão Model-View-Controller
 
-
 ## ALURA - PHP na Web: lidando com segurança e API
 * Aprenda a realizar autenticação com PHP
 * Realize autorização usando sessões HTTP com PHP
 * Saiba manipular Upload de arquivos com PHP
 * Se aprofunde no conhecimento de segurança com PHP
 * Aprenda sobre criação de APIs com PHP
+
+## ALURA - PHP: manipulando coleções com Arrays
+* Entenda como arrays funcionam em PHP
+* Aprenda a ordenar arrays de várias formas
+* Veja como realizar verificações em arrays
+* Conheça formas de manipular arrays em PHP
+* Descubra várias funções para trabalhar com arrays em PHP
+
+## ALURA - PHP: dominando as Collections
+* Entenda com detalhes os poderes e limitações do array
+* Aprenda sobre estruturas de dados mais completas
+* Saiba identificar uma lista, pilha, fila, etc
+* Conheça a ideia por trás de conjuntos
+* Entenda o poder dos mapas, ou dicionários
