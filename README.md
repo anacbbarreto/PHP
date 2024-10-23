@@ -8,71 +8,20 @@
 Cursos do Alura.
 <br> <br> 
   
-## ALURA - Avançando com PHP: Arrays, Strings, Função e Web
-* Entenda os Arrays e Arrays associativos
-* Crie funções para encapsular uma lógica
-* Domine os strings e conheça a interpolação
-* Escreva o seu primeiro código na Web
-* Saiba a diferença entre passagem por valor e referência
-
-## ALURA - PHP: conceitos, lidando com dados, loops e mais
-* Saiba o que é PHP e onde é utilizado
-* Use o PHPStorm para escrever código PHP
-* Conheça os tipos mais importantes da linguagem
-* Tome decisões no seu código e repete ações
-
-## ALURA - PHP e MySQL: Criando uma webapp
-* Aprenda como fazer um blog usando PHP e MySQL.
-* Veja conceitos básicos de como utilizar o PHP na Web!
-* Faça suas primeiras consultas em um banco de dados!
-* Aprenda sobre requisição e resposta do HTTP.
-* Conheça os fundamentos de como desenvolver para a Web.
-
-## ALURA - PHP: manipulando coleções com Arrays
-* Aprenda uma das partes que fazem parte do "coração" da linguagem, os arrays!
-* Veja na prática como utilizá-los e fazer as operações mais comuns do dia-a-dia.
-* Entenda como e quando utilizar arrays associativos.
-* Conheça mais sobre as operações comuns de um array, como ordenação, iteração, inserção e remoção!
-
-## ALURA - PHP Strings: manipulando textos com PHP
-* Conheça novidades do PHP 8 sobre strings
-* Aprenda a extrair pedaços de uma string
-* Saiba como separar strings e unir arrays
-* Conheço detalhes de sintaxe de strings no PHP
-* Aprenda sobre expressões regulares
-
-## ALURA - PHP Strings: Operações e expressões regulares
-* Aprenda como utilizar uma das partes mais importantes da linguagem, as strings!
-* Veja na prática como utilizá-las e as operações mais usadas no dia-a-dia.
-* Aprenda como transformar strings em arrays e vice-versa!
-* Conheça sobre expressões regulares, e como elas podem ser poderosas para tratar com strings.
-* Conheça sobre os filtros de strings do PHP, e como você pode utilizá-los na prática para realizar validações.
-* Aprenda como fazer um autoloader, e carregar as suas classes automaticamente.
-
-## ALURA - PHP na Web: conhecendo o padrão MVC
-* Aprenda a usar o PHP na web
-* Saiba como gerar HTML usando PHP
-* Filtre e valide dados de formulários com PHP
-* Aprenda a usar a orientação a objetos para organizar um projeto
-* Entenda o padrão Model-View-Controller
-
-## ALURA - PHP na Web: lidando com segurança e API
-* Aprenda a realizar autenticação com PHP
-* Realize autorização usando sessões HTTP com PHP
-* Saiba manipular Upload de arquivos com PHP
-* Se aprofunde no conhecimento de segurança com PHP
-* Aprenda sobre criação de APIs com PHP
-
-## ALURA - PHP: manipulando coleções com Arrays
-* Entenda como arrays funcionam em PHP
-* Aprenda a ordenar arrays de várias formas
-* Veja como realizar verificações em arrays
-* Conheça formas de manipular arrays em PHP
-* Descubra várias funções para trabalhar com arrays em PHP
-
-## ALURA - PHP: dominando as Collections
-* Entenda com detalhes os poderes e limitações do array
-* Aprenda sobre estruturas de dados mais completas
-* Saiba identificar uma lista, pilha, fila, etc
-* Conheça a ideia por trás de conjuntos
-* Entenda o poder dos mapas, ou dicionários
+## ALURA - PHP Avancando com Orientacao a Objetos com PHP Heranca, Polimorfismo e Interfaces
+## ALURA - PHP Avançando com PHP Arrays, Strings, Função e Web
+## ALURA - PHP Composer Dependencias, Autoload e Publicacao
+## ALURA - PHP Conceitos, lidando com dados e loops
+## ALURA - PHP Exceptions tratamento de erros
+## ALURA - PHP Orientação a Objetos com PHP Classes, metodos e atributos
+## ALURA - PHP Strings Operacoes e expressoes regulares
+## ALURA - PHP Strings manipulando textos com PHP
+## ALURA - PHP dominando as Collections
+## ALURA - PHP e MySQL Criando uma webapp
+## ALURA - PHP e MySQL criando sua primeira aplicacao web
+## ALURA - PHP manipulando colecoes com Arrays 2
+## ALURA - PHP manipulando colecoes com Arrays
+## ALURA - PHP na Web - aplicando boas práticas e PSRs
+## ALURA - PHP na Web - conhecendo padrao MVC
+## ALURA - PHP na Web - lidando com segurança e API
+## ALURA - PHP e PDO trabalhando com bancos de dados
