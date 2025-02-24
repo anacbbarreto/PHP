@@ -10,7 +10,32 @@
 
                 <div class="d-flex align-items-center">
 
-               
+                    <!-- Botão Editar com passagem de id para a função Javascript -->
+                    <button class="btn btn-primary btn-sm ms-2" onclick="mostrarInput({{ $serie->id }})">
+                        Editar
+                    </button>
+
+                    <!-- Formulário escondido inicialmente -->
+                    <form id="form-update-{{ $serie->id }}" 
+                          action="{{ route('series.update', $serie->id) }}" 
+                          method="POST" 
+                          class="d-flex align-items-center ms-2"
+                          style="display: none;"
+                          onsubmit="return confirmarAtualizacao({{ $serie->id }})">
+                        @csrf
+                        @method('PUT')
+
+                        <!-- Input para edição (inicialmente escondido) -->
+                        <input type="text" name="nome" id="input-nome-{{ $serie->id }}" 
+                               class="form-control form-control-sm me-2" 
+                               value="{{ $serie->nome }}" required>
+
+                        <!-- Botão para salvar -->
+                        <button type="submit" class="btn btn-success btn-sm">
+                            Salvar
+                        </button>
+                    </form>
+
                     <!-- Botão Deletar -->
                     <form action="{{ route('series.destroy', $serie->id) }}" method="POST" style="display: inline;">
                         @csrf
