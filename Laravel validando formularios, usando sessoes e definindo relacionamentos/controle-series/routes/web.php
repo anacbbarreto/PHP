@@ -20,5 +20,5 @@ Route::get('/', function () {
 
 
 Route::resource('/series',Series::class)
-->only(['index', 'create', 'store', 'destroy']);
+->except(['show']);
 

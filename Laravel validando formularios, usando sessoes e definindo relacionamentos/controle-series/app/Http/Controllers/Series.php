@@ -8,10 +8,11 @@ use Illuminate\Support\Facades\DB;
 
 class Series extends Controller
 {
-    public function index() {
+    public function index(Request $request) {
         $series = Serie::query()->orderBy('nome')->get();      
+        $mensagemSucesso = session('mensagem.sucesso');
 
-       return view('series.index')->with('series', $series);
+        return view('series.index')->with('series', $series)->with('mensagemSucesso', $mensagemSucesso);
     }
 
     public function create() 
@@ -22,14 +23,28 @@ class Series extends Controller
 
     public function store (Request $request){
       
-    Serie::create($request->all());
+    $serie = Serie::create($request->all());
+    return redirect()->route('series.index')->with('mensagem.sucesso', "Serie '{$serie->nome}' adicionada com sucesso");
+   
+}
 
-        return redirect()->route('series.index');
+    public function destroy (Serie $series) {
+
+        $series->delete();
+        return redirect()->route('series.index')->with('mensagem.sucesso', "Serie '{$series->nome}' removida com sucesso");
     }
 
-    public function destroy (Request $request) {
-       
-        Serie::destroy($request->series);
-        return redirect()->route('series.index');
+
+    public function edit (Serie $series) {
+
+        return view('series.edit')->with('serie', $series);
+    }
+
+    public function update (Serie $series, Request $request) {
+
+        $series->nome = $request->nome;
+        $series->save();
+        return redirect()->route('series.index')->with('mensagem.sucesso', "Serie '{$series->nome}' atualizada com sucesso");
+
     }
 }
