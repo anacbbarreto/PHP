@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\SeriesFormRequest;
 use App\Models\Serie;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -9,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 class Series extends Controller
 {
     public function index(Request $request) {
-        $series = Serie::query()->orderBy('nome')->get();      
+        $series = Serie::all();      
         $mensagemSucesso = session('mensagem.sucesso');
 
         return view('series.index')->with('series', $series)->with('mensagemSucesso', $mensagemSucesso);
@@ -21,9 +22,10 @@ class Series extends Controller
  
     }
 
-    public function store (Request $request){
+    public function store (SeriesFormRequest $request){
       
     $serie = Serie::create($request->all());
+  
     return redirect()->route('series.index')->with('mensagem.sucesso', "Serie '{$serie->nome}' adicionada com sucesso");
    
 }
@@ -37,10 +39,11 @@ class Series extends Controller
 
     public function edit (Serie $series) {
 
+        
         return view('series.edit')->with('serie', $series);
     }
 
-    public function update (Serie $series, Request $request) {
+    public function update (Serie $series, SeriesFormRequest $request) {
 
         $series->nome = $request->nome;
         $series->save();
